@@ -19,11 +19,17 @@
     });
 </script>
 
-<label for="fileselect">Upload</label>
+<label for="fileselect" class="upload">Upload</label>
 <input bind:files bind:value type="file" id="fileselect">
 
 <style>
     input[type="file"] {
         display: None;
+    }
+
+    .upload {
+        border: 3px solid #ffefef;
+        border-radius: 7px;
+        padding: 3px;
     }
 </style>
