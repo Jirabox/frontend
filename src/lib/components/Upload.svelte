@@ -19,18 +19,11 @@
     });
 </script>
 
-<label for="fileselect" class="upload">Upload</label>
+<label for="fileselect" class="block border-3 border-solid border-[#ffefef] rounded-lg p-1">Upload</label>
 <input bind:files bind:value type="file" id="fileselect">
 
 <style>
     input[type="file"] {
         display: None;
-    }
-
-    .upload {
-        display: block;
-        border: 3px solid #ffefef;
-        border-radius: 7px;
-        padding: 3px;
     }
 </style>
