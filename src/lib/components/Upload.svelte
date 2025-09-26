@@ -28,6 +28,7 @@
     }
 
     .upload {
+        display: block;
         border: 3px solid #ffefef;
         border-radius: 7px;
         padding: 3px;
